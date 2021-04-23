@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e9dbb8113d43f4496a9a69f9cecfa5, type: 3}
+  m_Name: Sniper1
+  m_EditorClassIdentifier: 
+  name: Kar-98
+  bodyDamage: 600
+  headDamage: 1000
+  limbDamage: 300
+  firerate: 2
+  aimSpeed: 7
+  recoil: 6
+  bloom: 1
+  kickback: 0.06
+  bulletForce: 1000
+  muzleFlash: {fileID: 1000010254994808, guid: 9defeac88977c0d448aa4541073ee9e4, type: 3}
+  sparks: {fileID: 1000011945391522, guid: 78b71003e8b357d4bbf89c8b5e5e4f0e, type: 3}
+  impactFx: {fileID: 100006, guid: 0438351a6e6422d43a09930e9be00ee9, type: 3}
+  pointLight: {fileID: 5102342599198013158, guid: ce5cb6783f5bb794c9605a7734289ad8, type: 3}
+  ammo: 30
+  equipTime: 1.5
+  clipSize: 5
+  reload: 3
+  aimSensitivity: 0.4
+  mainFOV: 0.2
+  weapoFOV: 0.45
+  gunshotSound: {fileID: 8300000, guid: 09990979f47666941a8b1c8a46dc2f38, type: 3}
+  gunshootVolume: 1
+  pitchRandomization: 0.2
+  burst: 0
+  pellets: 0
+  recovery: 1
+  prefab: {fileID: 4194922309320221981, guid: f404862114e913149b4b7a5e8f203962, type: 3}
+  display: {fileID: 2096527183891797947, guid: 54164db6513005946933d8910ae21124, type: 3}

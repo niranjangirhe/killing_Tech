@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e9dbb8113d43f4496a9a69f9cecfa5, type: 3}
+  m_Name: AR1
+  m_EditorClassIdentifier: 
+  name: AK-47
+  bodyDamage: 75
+  headDamage: 200
+  limbDamage: 50
+  firerate: 0.15
+  aimSpeed: 7
+  recoil: 6
+  bloom: 5
+  kickback: 0.06
+  bulletForce: 200
+  muzleFlash: {fileID: 1000010254994808, guid: 9defeac88977c0d448aa4541073ee9e4, type: 3}
+  sparks: {fileID: 1000011945391522, guid: 78b71003e8b357d4bbf89c8b5e5e4f0e, type: 3}
+  impactFx: {fileID: 100006, guid: 0438351a6e6422d43a09930e9be00ee9, type: 3}
+  pointLight: {fileID: 5102342599198013158, guid: ce5cb6783f5bb794c9605a7734289ad8, type: 3}
+  ammo: 150
+  equipTime: 0.6666667
+  clipSize: 30
+  reload: 2.5
+  aimSensitivity: 0.7
+  mainFOV: 0.7
+  weapoFOV: 0.55
+  gunshotSound: {fileID: 8300000, guid: 82bed51de7c07d042bce79900fd7eee0, type: 3}
+  gunshootVolume: 0.7
+  pitchRandomization: 0.1
+  burst: 1
+  pellets: 0
+  recovery: 0
+  prefab: {fileID: 3096302185156817347, guid: ae5045f4baeb35e4b8d84d44ec5b0e99, type: 3}
+  display: {fileID: 7926310616390682636, guid: 2eeeb67589f5bf14fba2bd085ee7cdfc, type: 3}

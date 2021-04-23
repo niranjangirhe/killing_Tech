@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e9dbb8113d43f4496a9a69f9cecfa5, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  name: Pistol
+  bodyDamage: 100
+  headDamage: 300
+  limbDamage: 50
+  firerate: 0.3
+  aimSpeed: 7
+  recoil: 10
+  bloom: 2
+  kickback: 0.2
+  bulletForce: 140
+  muzleFlash: {fileID: 1000010254994808, guid: 9defeac88977c0d448aa4541073ee9e4, type: 3}
+  sparks: {fileID: 1000011945391522, guid: 78b71003e8b357d4bbf89c8b5e5e4f0e, type: 3}
+  impactFx: {fileID: 100006, guid: 0438351a6e6422d43a09930e9be00ee9, type: 3}
+  pointLight: {fileID: 5102342599198013158, guid: ce5cb6783f5bb794c9605a7734289ad8, type: 3}
+  ammo: 48
+  equipTime: 0.6666667
+  clipSize: 12
+  reload: 1.5
+  aimSensitivity: 0.8
+  mainFOV: 0.8
+  weapoFOV: 0.45
+  gunshotSound: {fileID: 8300000, guid: 60bf1d1af74b22b41af872b458da32b8, type: 3}
+  gunshootVolume: 0.8
+  pitchRandomization: 0.2
+  burst: 0
+  pellets: 0
+  recovery: 0
+  prefab: {fileID: 6935204320758315553, guid: 5c7c0a9864c28e844997bdb9f81aee94, type: 3}
+  display: {fileID: 1616661497890568484, guid: 0f5ab8ec8dd36e941945ce86197c00c4, type: 3}
